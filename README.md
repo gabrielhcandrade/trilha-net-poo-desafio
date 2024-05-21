@@ -1,9 +1,9 @@
 ## Sobre o Projeto
 O projeto visava desenvolver um sistema para smartphones utilizando os princípios da Programação Orientada a Objetos (POO) em C#.
 
-Classe abstrata "Smartphone": Uma classe abstrata central foi criada, denominada "Smartphone", para fornecer uma estrutura comum para as subclasses, que representam diferentes marcas de smartphones.
-Subclasses "Iphone" e "Nokia": Classes específicas para "Iphone" e "Nokia" foram implementadas, herdando da classe abstrata "Smartphone". Isso permitiu que cada marca tivesse comportamentos distintos, enquanto compartilhava características genéricas.
-Ambiente .NET: O desenvolvimento foi realizado no ambiente .NET, utilizando o console de gerenciamento.
+- Classe abstrata "Smartphone": Uma classe abstrata central foi criada, denominada "Smartphone", para fornecer uma estrutura comum para as subclasses, que representam diferentes marcas de smartphones.
+- Subclasses "Iphone" e "Nokia": Classes específicas para "Iphone" e "Nokia" foram implementadas, herdando da classe abstrata "Smartphone". Isso permitiu que cada marca tivesse comportamentos distintos, enquanto compartilhava características genéricas.
+- Ambiente .NET: O desenvolvimento foi realizado no ambiente .NET, utilizando o console de gerenciamento.
 
 ## Proposta
 
