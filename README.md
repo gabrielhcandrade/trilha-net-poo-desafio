@@ -1,15 +1,11 @@
-# DIO - Trilha .NET - Programação orientada a objetos
-www.dio.me
+## Sobre o Projeto
+O projeto visava desenvolver um sistema para smartphones utilizando os princípios da Programação Orientada a Objetos (POO) em C#.
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de orientação a objetos, da trilha .NET da DIO.
-
-## Contexto
-Você é responsável por modelar um sistema que trabalha com celulares. Para isso, foi solicitado que você faça uma abstração de um celular e disponibilize maneiras de diferentes marcas e modelos terem seu próprio comportamento, possibilitando um maior reuso de código e usando a orientação a objetos.
+Classe abstrata "Smartphone": Uma classe abstrata central foi criada, denominada "Smartphone", para fornecer uma estrutura comum para as subclasses, que representam diferentes marcas de smartphones.
+Subclasses "Iphone" e "Nokia": Classes específicas para "Iphone" e "Nokia" foram implementadas, herdando da classe abstrata "Smartphone". Isso permitiu que cada marca tivesse comportamentos distintos, enquanto compartilhava características genéricas.
+Ambiente .NET: O desenvolvimento foi realizado no ambiente .NET, utilizando o console de gerenciamento.
 
 ## Proposta
-Você precisa criar um sistema em .NET, do tipo console, mapeando uma classe abstrata e classes específicas para dois tipos de celulares: Nokia e iPhone. 
-Você deve criar as suas classes de acordo com o diagrama abaixo:
 
 ![Diagrama classes](Imagens/diagrama.png)
 
@@ -18,5 +14,8 @@ Você deve criar as suas classes de acordo com o diagrama abaixo:
 2. A classe **Nokia** e **Iphone** devem ser classes filhas de Smartphone.
 3. O método **InstalarAplicativo** deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
 
-## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+## Tecnologias Utilizadas 
+
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
